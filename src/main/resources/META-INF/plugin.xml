@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>GitCheckoutFilesFromOtherBranch</id>
+    <name>Git Checkout Files From Branch</name>
+    <description>
+        <![CDATA[
+  <h2>Checkout files from another git branch</h2>
+  <p>
+  Lets you pick files from another git branch that do not exist on the current branch. Currently this is not
+  possible via the "Compare With..." dialog for branches. This plugin adds the missing functionality
+  via a separate dialog.
+  <br>
+  Usage: VCS -> Git -> Checkout files from branch...
+  </p>
+    ]]>
+    </description>
+
+    <vendor>Andreas Barth</vendor>
+    <change-notes>currently in beta</change-notes>
+
+    <idea-version since-build="181" until-build="181.*"/>
+    <!-- plugin will be loaded if the target product contains all these modules -->
+    <depends>com.intellij.modules.vcs</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>Git4Idea</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action id="Git.CheckoutFilesFromBranch"
+                class="org.jetbrains.GitCheckoutFilesFromOtherBranchAction"
+                text="Checkout files from branch..."
+                description="Checkout files from another branch">
+            <add-to-group group-id="GitRepositoryActions" anchor="after" relative-to-action="Git.Reset"/>
+
+        </action>
+    </actions>
+
+</idea-plugin>

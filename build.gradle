@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.3.2'
+}
+
+group 'org.jetbrains.intellij.git-checkout-files-from-branch'
+version '0.1.0-beta1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+intellij {
+    version '2018.1.4'
+    plugins 'git4idea'
+}
+patchPluginXml {
+    changeNotes """
+      """
+}
