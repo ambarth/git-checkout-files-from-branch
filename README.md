@@ -28,5 +28,5 @@ Usage
 ![inject->provide](img/local_changes.png)
 
 
-[1]: https://github.com/ambarth/git-checkout-files-from-branch/releases/git-checkout-files-from-branch-0.1.0-beta1.jar
+[1]: https://github.com/ambarth/git-checkout-files-from-branch/blob/master/releases/git-checkout-files-from-branch-0.1.0-beta1.jar
 [2]: https://plugins.jetbrains.com/plugin/10795-git-checkout-files-from-branch
