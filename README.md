@@ -13,7 +13,7 @@ download the plugin as jar file from [github][1] and install via File->Settings-
 Requirements
 ------------
 
-The plugin currently only supports IDEA 2018.1.4
+The plugin supports IDEA 2018.1 and higher
 
 Usage
 --------
