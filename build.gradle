@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'org.jetbrains.intellij.git-checkout-files-from-branch'
-version '0.1.0-beta1'
+version '0.1.0'
 
 sourceCompatibility = 1.8
 
@@ -17,7 +17,7 @@ dependencies {
 }
 
 intellij {
-    version '2018.1.4'
+    version '2018.1'
     plugins 'git4idea'
 }
 patchPluginXml {

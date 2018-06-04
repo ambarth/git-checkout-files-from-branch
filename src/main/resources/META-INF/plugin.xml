@@ -4,6 +4,8 @@
     <description>
         <![CDATA[
   <h2>Checkout files from another git branch</h2>
+  <a href="https://github.com/ambarth/git-checkout-files-from-branch">GitHub</a> | <a href="https://plugins.jetbrains.com/plugin/10795-git-checkout-files-from-branch">Jetbrains Repository</a>
+  <br>
   <p>
   Lets you pick files from another git branch that do not exist on the current branch. Currently this is not
   possible via the "Compare With..." dialog for branches. This plugin adds the missing functionality
@@ -15,8 +17,15 @@
     </description>
 
     <vendor>Andreas Barth</vendor>
-    <change-notes>currently in beta</change-notes>
+    <change-notes>
+        <![CDATA[
+        <ul>
+            <li>0.1.0 - IDEA 2018.1</li>
+        </ul>
+        ]]>
+    </change-notes>
 
+    <!-- note that version may be overwritten by gradle plugin: http://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/deployment.html#configure-your-plugin -->
     <idea-version since-build="181" until-build="181.*"/>
     <!-- plugin will be loaded if the target product contains all these modules -->
     <depends>com.intellij.modules.vcs</depends>
