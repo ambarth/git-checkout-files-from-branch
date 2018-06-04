@@ -4,14 +4,20 @@
     <description>
         <![CDATA[
   <h2>Checkout files from another git branch</h2>
-  <a href="https://github.com/ambarth/git-checkout-files-from-branch">GitHub</a> | <a href="https://plugins.jetbrains.com/plugin/10795-git-checkout-files-from-branch">Jetbrains Repository</a>
-  <br>
+  <br/>
+
+  <a href="https://github.com/ambarth/git-checkout-files-from-branch">GitHub</a> |
+  <a href="https://plugins.jetbrains.com/plugin/10795-git-checkout-files-from-branch">Jetbrains Repository</a>
+  <br/>
+  <br/>
+
   <p>
   Lets you pick files from another git branch that do not exist on the current branch. Currently this is not
   possible via the "Compare With..." dialog for branches. This plugin adds the missing functionality
   via a separate dialog.
-  <br>
-  Usage: VCS -> Git -> Checkout files from branch...
+  <br/>
+
+  Usage: <i>VCS -> Git -> Checkout files from branch...</i>
   </p>
     ]]>
     </description>
