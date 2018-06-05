@@ -31,8 +31,6 @@
         ]]>
     </change-notes>
 
-    <!-- note that version may be overwritten by gradle plugin: http://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/deployment.html#configure-your-plugin -->
-    <idea-version since-build="181" until-build="181.*"/>
     <!-- plugin will be loaded if the target product contains all these modules -->
     <depends>com.intellij.modules.vcs</depends>
     <depends>com.intellij.modules.lang</depends>
