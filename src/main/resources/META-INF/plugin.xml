@@ -25,9 +25,7 @@
     <vendor>Andreas Barth</vendor>
     <change-notes>
         <![CDATA[
-        <ul>
-            <li>0.1.0 - IDEA 2018.1</li>
-        </ul>
+        Relaxes version requirements.
         ]]>
     </change-notes>
 
