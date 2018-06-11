@@ -23,6 +23,7 @@
     </description>
 
     <vendor>Andreas Barth</vendor>
+    <idea-version since-build="181"/>
     <change-notes>
         <![CDATA[
         Relaxes version requirements.
