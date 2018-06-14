@@ -2,7 +2,7 @@ Git Checkout Files From Branch IDEA Plugin
 ==========================================
 
 Git Checkout Files From Branch is a plugin that allows you to checkout missing files from another git branch. 
-It can be used within all IDEA IDEs. https://plugins.jetbrains.com/plugin/10795-git-checkout-files-from-branch
+It can be used with all Jetbrains IDEs. https://plugins.jetbrains.com/plugin/10795-git-checkout-files-from-branch
 
 Installation
 -------------
